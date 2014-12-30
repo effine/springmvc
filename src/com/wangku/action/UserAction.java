@@ -3,6 +3,7 @@ package com.wangku.action;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Random;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -30,6 +31,7 @@ public class UserAction {
 		Map<String, Object> result = new HashMap<String, Object>();
 		result.put("status", 0);
 		if (null != user) {
+			user.setId(new Random().nextInt(9999999));
 			boolean isSuccess = userService.addUser(user);
 			if (isSuccess) {
 				result.put("status", 1);
@@ -108,7 +110,7 @@ public class UserAction {
 	 */
 	@RequestMapping(value = "login", produces="application/json; charset=utf-8")
 	@ResponseBody
-	public String getUser(HttpServletRequest request, HttpServletResponse response, String username, String password) {
+	public String login(HttpServletRequest request, HttpServletResponse response, String username, String password) {
 		Map<String, Object> result = new HashMap<String, Object>();
 		result.put("status", 0);
 		if (null != username && "" != username) {

@@ -6,7 +6,6 @@
 package com.wangku.entity;
 
 import java.io.Serializable;
-import java.util.Date;
 
 public class User implements Serializable {
 
@@ -18,7 +17,7 @@ public class User implements Serializable {
 	private String account;
 	private String password;
 	private int gender;
-	private Date birthday;
+	private String birthday;
 	private int status;
 
 	public int getId() {
@@ -69,11 +68,11 @@ public class User implements Serializable {
 		this.gender = gender;
 	}
 
-	public Date getBirthday() {
+	public String getBirthday() {
 		return birthday;
 	}
 
-	public void setBirthday(Date birthday) {
+	public void setBirthday(String birthday) {
 		this.birthday = birthday;
 	}
 
@@ -84,9 +83,4 @@ public class User implements Serializable {
 	public void setStatus(int status) {
 		this.status = status;
 	}
-
-	public static long getSerialversionuid() {
-		return serialVersionUID;
-	}
-
 }

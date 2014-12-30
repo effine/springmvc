@@ -1,0 +1,37 @@
+var tpls = {
+	"userList": [
+		'<table class="tb">',
+			'<tr>',
+				'<td>序号</td>',
+				'<td>姓名</td>',
+				'<td>账号</td>',
+				'<td>性别</td>',
+				'<td>所属团队</td>',
+				'<td>出生年月</td>',
+				'<td>是否启用</td>',
+				'<td colspan="3">操作</td>',
+			'</tr>',
+			'{@each userList as user, index}',
+			'<tr data-userid="${user.id}">',
+				'<td>${index - (-1)}</td>',
+				'<td>${user.name}</td>',
+				'<td>${user.account}</td>',
+				'<td>{@if user.gender == 0}男{@else if user.gender == 1 }女{@/if}</td>',
+				'<td>${user.teamId}</td>',
+				'<td>${user.birthday}</td>',
+				'<td>{@if user.status == 0}否{@else if user.status == 1 }是{@/if}</td>',
+				'<td>',
+					'<a href="javascript:" class="add">增加</a>',
+				'</td>',
+				'<td>',
+					'<a href="javascript:" class="edit">编辑</a>',
+				'</td>',
+				'<td>',
+					'<a href="javascript:" class="del">删除</a>',
+				'</td>',
+			'</tr>',
+			'{@/each}',
+		'</table>'      
+	].join('')
+		
+};

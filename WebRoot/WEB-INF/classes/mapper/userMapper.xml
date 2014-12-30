@@ -15,7 +15,6 @@
 		<result property="status" column="status" />
 	</resultMap>
 	
-	<!-- 自动生成id策略 -->
 	<insert id="addUser" parameterType="com.wangku.entity.User">
 		insert into user(id, team_id, name, account, password, gender, birthday, status)
 		values(#{id}, #{team_id}, #{name}, #{account}, #{password}, #{gender}, #{birthday}, #{status})
