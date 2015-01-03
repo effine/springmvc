@@ -1,8 +1,8 @@
-package com.wangku.mapper;
+package com.effine.mapper;
 
 import java.util.List;
 
-import com.wangku.entity.Account;
+import com.effine.entity.Account;
 
 public interface AccountMapper {
 	

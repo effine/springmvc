@@ -1,4 +1,4 @@
-package com.wangku.entity;
+package com.effine.entity;
 
 import java.io.Serializable;
 

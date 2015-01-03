@@ -1,4 +1,4 @@
-package com.wangku.action;
+package com.effine.action;
 
 import javax.servlet.http.HttpServletRequest;
 
@@ -8,8 +8,8 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import com.wangku.entity.Account;
-import com.wangku.service.IAccountService;
+import com.effine.entity.Account;
+import com.effine.service.IAccountService;
 
 @Controller
 @RequestMapping("account")

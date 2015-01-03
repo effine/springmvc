@@ -1,8 +1,8 @@
-package com.wangku.dao;
+package com.effine.dao;
 
 import java.util.List;
 
-import com.wangku.entity.Account;
+import com.effine.entity.Account;
 
 public interface  IDAO {
 	/*

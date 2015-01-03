@@ -20,8 +20,8 @@ import org.junit.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-import com.wangku.entity.Account;
-import com.wangku.mapper.AccountMapper;
+import com.effine.entity.Account;
+import com.effine.mapper.AccountMapper;
 
 /**
  * <p>

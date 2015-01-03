@@ -19,8 +19,8 @@ import org.junit.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-import com.wangku.entity.User;
-import com.wangku.mapper.UserMapper;
+import com.effine.entity.User;
+import com.effine.mapper.UserMapper;
 
 /**
  * <p>

@@ -1,10 +1,10 @@
-package com.wangku.service;
+package com.effine.dao;
 
 import java.util.List;
 
-import com.wangku.entity.User;
+import com.effine.entity.User;
 
-public interface UserService {
+public interface UserDao {
 
 	boolean addUser(User user);
 

@@ -1,7 +1,8 @@
-package com.wangku.service;
+package com.effine.service;
 
 import java.util.List;
-import com.wangku.entity.Account;
+
+import com.effine.entity.Account;
 
 public interface IAccountService {
 

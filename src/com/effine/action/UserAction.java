@@ -1,4 +1,4 @@
-package com.wangku.action;
+package com.effine.action;
 
 import java.util.HashMap;
 import java.util.List;
@@ -15,8 +15,8 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.serializer.SerializerFeature;
-import com.wangku.entity.User;
-import com.wangku.service.UserService;
+import com.effine.entity.User;
+import com.effine.service.UserService;
 
 @Controller
 @RequestMapping("user")
