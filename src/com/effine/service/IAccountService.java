@@ -13,6 +13,4 @@ public interface IAccountService {
 	public List<Account> getAccounts() throws Exception;
 	
 	public List<Account> getList();
-	
-	
 }
