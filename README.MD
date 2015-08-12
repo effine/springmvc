@@ -1,0 +1,3 @@
+project: springmvc
+-----------------------------
+test project
