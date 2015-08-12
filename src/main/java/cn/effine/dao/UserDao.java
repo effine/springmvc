@@ -1,10 +1,10 @@
-package com.effine.service;
+package cn.effine.dao;
 
 import java.util.List;
 
-import com.effine.entity.User;
+import cn.effine.entity.User;
 
-public interface UserService {
+public interface UserDao {
 
 	boolean addUser(User user);
 

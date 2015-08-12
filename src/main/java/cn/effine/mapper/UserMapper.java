@@ -1,9 +1,9 @@
-package com.effine.mapper;
+package cn.effine.mapper;
 
 import java.util.List;
 import java.util.Map;
 
-import com.effine.entity.User;
+import cn.effine.entity.User;
 
 public interface UserMapper {
 

@@ -1,4 +1,4 @@
-package com.effine.action;
+package cn.effine.action;
 
 import java.util.HashMap;
 import java.util.List;
@@ -13,10 +13,11 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+import cn.effine.entity.User;
+import cn.effine.service.UserService;
+
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.serializer.SerializerFeature;
-import com.effine.entity.User;
-import com.effine.service.UserService;
 
 @Controller
 @RequestMapping("user")

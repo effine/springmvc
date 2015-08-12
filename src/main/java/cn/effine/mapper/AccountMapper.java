@@ -1,8 +1,8 @@
-package com.effine.mapper;
+package cn.effine.mapper;
 
 import java.util.List;
 
-import com.effine.entity.Account;
+import cn.effine.entity.Account;
 
 public interface AccountMapper {
 	

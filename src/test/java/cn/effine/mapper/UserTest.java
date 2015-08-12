@@ -9,7 +9,7 @@
  *  See the License for the specific language governing permissions and
  *  limitations under the License.
  */
-package com.sfpay.mapper;
+package cn.effine.mapper;
 
 import java.util.Random;
 
@@ -19,8 +19,8 @@ import org.junit.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-import com.effine.entity.User;
-import com.effine.mapper.UserMapper;
+import cn.effine.entity.User;
+import cn.effine.mapper.UserMapper;
 
 /**
  * <p>

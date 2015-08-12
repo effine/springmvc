@@ -1,8 +1,8 @@
-package com.effine.dao;
+package cn.effine.dao;
 
 import java.util.List;
 
-import com.effine.entity.Account;
+import cn.effine.entity.Account;
 
 public interface  IDAO {
 	/*

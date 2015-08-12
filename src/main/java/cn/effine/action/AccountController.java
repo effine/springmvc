@@ -1,4 +1,4 @@
-package com.effine.action;
+package cn.effine.action;
 
 import javax.servlet.http.HttpServletRequest;
 
@@ -8,8 +8,8 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import com.effine.entity.Account;
-import com.effine.service.IAccountService;
+import cn.effine.entity.Account;
+import cn.effine.service.IAccountService;
 
 @Controller
 @RequestMapping("account")

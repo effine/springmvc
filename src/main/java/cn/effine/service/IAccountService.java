@@ -1,8 +1,8 @@
-package com.effine.service;
+package cn.effine.service;
 
 import java.util.List;
 
-import com.effine.entity.Account;
+import cn.effine.entity.Account;
 
 public interface IAccountService {
 

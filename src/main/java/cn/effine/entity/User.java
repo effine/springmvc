@@ -3,7 +3,7 @@
  * @date 2014年12月28日  下午1:57:42
  */
 
-package com.effine.entity;
+package cn.effine.entity;
 
 import java.io.Serializable;
 
